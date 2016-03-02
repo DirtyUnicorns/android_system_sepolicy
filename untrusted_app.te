@@ -190,6 +190,7 @@ neverallow untrusted_app {
   fs_type
   -fuse                     # sdcard
   -sdcardfs                 # sdcard
+  -sdcardfs                 # sdcardigfs
   file_type
   -app_data_file            # The apps sandbox itself
   -media_rw_data_file       # Internal storage. Known that apps can
