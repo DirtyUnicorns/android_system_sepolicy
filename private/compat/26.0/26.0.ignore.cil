@@ -8,6 +8,7 @@
     activity_task_service
     adb_service
     adbd_exec
+    adbtcp_prop
     app_binding_service
     apex_data_file
     apex_metadata_file

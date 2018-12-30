@@ -94,6 +94,7 @@ type wifi_prop, property_type;
 type vendor_security_patch_level_prop, property_type;
 
 # Properties for whitelisting
+type adbtcp_prop, property_type;
 type exported_audio_prop, property_type;
 type exported_bluetooth_prop, property_type;
 type exported_config_prop, property_type;
@@ -353,6 +354,7 @@ compatible_property_only(`
     -system_writes_vendor_properties_violators
   } {
     property_type
+    -adbtcp_prop
     -apexd_prop
     -audio_prop
     -bluetooth_a2dp_offload_prop

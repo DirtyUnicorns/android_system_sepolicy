@@ -176,6 +176,8 @@ vendor.                 u:object_r:vendor_default_prop:s0
 # ro.boot. properties are set based on kernel commandline arguments, which are vendor owned.
 ro.boot.                u:object_r:exported2_default_prop:s0
 
+adb.network.port                 u:object_r:adbtcp_prop:s0
+
 # Properties that relate to time / time zone detection behavior.
 persist.time.           u:object_r:time_prop:s0
 
