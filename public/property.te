@@ -217,6 +217,7 @@ compatible_property_only(`
     -coredomain
     -bluetooth
     -hal_bluetooth_server
+    -vendor_writes_system_properties_violators
   } {
     bluetooth_prop
   }:property_service set;
@@ -297,6 +298,7 @@ compatible_property_only(`
     -coredomain
     -bluetooth
     -hal_bluetooth_server
+    -vendor_writes_system_properties_violators
   } {
     bluetooth_prop
   }:file no_rw_file_perms;
