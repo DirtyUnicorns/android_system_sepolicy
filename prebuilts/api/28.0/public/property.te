@@ -50,6 +50,7 @@ type persist_debug_prop, property_type, core_property_type;
 type persistent_properties_ready_prop, property_type;
 type pm_prop, property_type;
 type powerctl_prop, property_type, core_property_type;
+type qemu_hw_mainkeys, property_type;
 type radio_prop, property_type, core_property_type;
 type restorecon_prop, property_type, core_property_type;
 type safemode_prop, property_type;
@@ -394,6 +395,7 @@ compatible_property_only(`
     -persistent_properties_ready_prop
     -pm_prop
     -powerctl_prop
+    -qemu_hw_mainkeys
     -radio_prop
     -restorecon_prop
     -safemode_prop
