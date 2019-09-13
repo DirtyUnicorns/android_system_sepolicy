@@ -77,6 +77,10 @@
     mediatranscoding_exec
     mediatranscoding_tmpfs
     mirror_data_file
+    misc_writer
+    misc_writer_exec
+    misc_writer_prop
+    misc_writer_tmpfs
     light_service
     linkerconfig_file
     lmkd_prop

@@ -571,6 +571,7 @@ compatible_property_only(`
     property_type
     -system_property_type
     -extended_core_property_type
+    -misc_writer_prop
   }:property_service set;
 ')
 

@@ -348,6 +348,10 @@
 /system/bin/migrate_legacy_obb_data\.sh u:object_r:migrate_legacy_obb_data_exec:s0
 /system/bin/android\.frameworks\.automotive\.display@1\.0-service u:object_r:automotive_display_service_exec:s0
 
+# Themed bootanimation
+/system/bin/misc_writer_system                 u:object_r:misc_writer_exec:s0
+/system/bin/boot_theme                         u:object_r:misc_writer_exec:s0
+
 #############################
 # Vendor files
 #
