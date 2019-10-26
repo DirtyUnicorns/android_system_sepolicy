@@ -1,1 +1,3 @@
 init_daemon_domain(vendor_misc_writer)
+
+allow vendor_misc_writer sysfs_dt_firmware_android:dir search;
